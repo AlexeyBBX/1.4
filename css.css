@@ -64,14 +64,20 @@ li {
 ul img {
     margin-bottom: -30px;
 }
-.ul__li--active {
-    margin-left: 24px;
-    color: #7E7E82;
-}
 
 .ul__li {
-    margin-top: 32px;
-    margin-left: 24px;
+    padding-top: 32px;
+    padding-left: 24px;
+}
+
+.ul__li:hover {
+    filter: opacity(65%);
+    background-image:url('./highlight.svg');
+    background-repeat: no-repeat;
+    height: 32px;
+    margin-bottom: -10px;
+    background-position: left;
+    background-position: 0 25px;
 }
 
 footer {
