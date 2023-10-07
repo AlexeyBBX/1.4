@@ -23,17 +23,17 @@
 }
 
 body {
-    font-family: "TTLakes-Medium";
-    height: 100%;
-    width: 320px;
-    background: #FFF;
-    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
+
 }
 
 .block {
-    height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: "TTLakes-Medium";
+    min-height: 100vh;
+    width: 320px;
+    background: #FFF;
+    box-shadow: 16px 0px 52px 0px rgba(14, 24, 80, 0.20), -2px 0px 4px 0px rgba(69, 79, 126, 0.02);
 }
 
 .pull-out {
@@ -89,6 +89,8 @@ footer {
 }
 
 .footer__btn { 
+    margin-top: 16px;
+
 }
 
 .footer__btn--chatcopy {
